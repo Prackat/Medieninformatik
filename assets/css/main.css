@@ -16,25 +16,10 @@ body, html{
     justify-content: center;
   }
 
-.background.main { 
-  background-image: url('./../files/img/Wallpaper_03.jpg'); 
+#wrapper { 
+  background-image: url('./../bilder/elden-ring_01.jpg'); 
 }
 
-.background.hallway{
-  background-image: url('./../files/img/Wallpaper_04.jpg');
-}
-
-.background.planetarium{
-  background-image: url('./../files/img/Wallpaper_01.jpg');
-}
-
-.background.about{
-  background-image: url('./../files/img/Wallpaper_02.jpg');
-}
-
-.background.library{
-  background-image: url('./../files/img/Wallpaper_05.jpg');
-}
   
 
 header{
@@ -64,27 +49,6 @@ footer{
   justify-content: center;
 }
 
-.card.hall{
-margin: 20px;
-color: white;
-background-color: #075068;
-box-shadow: 2px 8px 19px 13px #000000;
-}
-
-
-.buttonbox{
-  display: flex;
-  justify-content: center;
-}
-
-button.btn.btn-dark.entrance {
-    font-size: 24pt;
-    background: #002128;
-}
-.btn.btn-dark.hallway {
-  
-  background: #002128;
-}
 
 /* Damit alle Links nicht scheiße aussehen.*/ 
 a {
