@@ -1,0 +1,93 @@
+body, html{
+    height: 100%;
+    margin:0;
+}
+
+.background { 
+    height: 87vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+.background.main { 
+  background-image: url('./../files/img/Wallpaper_03.jpg'); 
+}
+
+.background.hallway{
+  background-image: url('./../files/img/Wallpaper_04.jpg');
+}
+
+.background.planetarium{
+  background-image: url('./../files/img/Wallpaper_01.jpg');
+}
+
+.background.about{
+  background-image: url('./../files/img/Wallpaper_02.jpg');
+}
+
+.background.library{
+  background-image: url('./../files/img/Wallpaper_05.jpg');
+}
+  
+
+header{
+  background-color: #020D0C;
+  color: #ffffff;
+  margin: 0;
+}
+
+footer{
+  background-color: #020D0C;
+  padding: 15px;
+}
+
+#nav-placeholder{
+  margin-bottom: -1px;
+}
+
+.content {
+  margin: 0 auto;
+  color:#ffffff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24pt;
+}
+
+.innerWindow{
+  display: flex;
+  justify-content: center;
+}
+
+.card.hall{
+margin: 20px;
+color: white;
+background-color: #075068;
+box-shadow: 2px 8px 19px 13px #000000;
+}
+
+
+.buttonbox{
+  display: flex;
+  justify-content: center;
+}
+
+button.btn.btn-dark.entrance {
+    font-size: 24pt;
+    background: #002128;
+}
+.btn.btn-dark.hallway {
+  
+  background: #002128;
+}
+
+/* Damit alle Links nicht scheiße aussehen.*/ 
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
