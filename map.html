@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Elden Wiki</title>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <link rel="stylesheet" href="./../assets/css/main.css" />
+    <link rel="stylesheet" href="./../assets/css/nav.css" />
+    <link rel="stylesheet" href="./../assets/css/footer.css" />
+  </head>
+
+  <body>
+    <div id="wrapper" class="background">
+      <div id="main_container">
+        <div id="nav-placeholder"></div>
+
+        <div class="content_container">
+          <div class="content">
+            <div class="maptext_container">
+              <h2>Elden Ring Map: Absolutely not interactive | Elden Wiki</h2>
+              <p>
+                On this map, you can see the location of Blaidd on the original
+                Elden Ring map.
+              </p>
+            </div>
+            <div class="map_container">
+              <img
+                src="./../assets/bilder/Karte-Blaidd.PNG"
+                alt="Avatar"
+                style="width: 100%"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div id="footer-placeholder"></div>
+      </div>
+    </div>
+    <!-- Javascript -->
+
+    <script>
+      $(function () {
+        $("#nav-placeholder").load("nav.html");
+      });
+    </script>
+    <script>
+      $(function () {
+        $("#footer-placeholder").load("footer.html");
+      });
+    </script>
+  </body>
+</html>

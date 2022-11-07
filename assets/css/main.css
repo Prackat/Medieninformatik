@@ -4,13 +4,15 @@ html {
   height: 100%;
   margin: 0;
   color: #ffffff;
-  font-family: "Times New Roman", Times, serif;
+  font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;;
   font-size: 16pt;
 }
 
-h2 {
+h1,h2,h3,h4,h5,h6{
   text-align: center;
 }
+
+
 
 a {
   color: #ffffff;
@@ -49,10 +51,10 @@ div#main_container {
 .content_container {
   background-color: rgba(0, 0, 0, 0.7);
   height: 100%;
-}
-
-.text_container {
   padding: 3rem;
+}
+.text_container {
+  margin-bottom: 7rem;
 }
 
 .text_container p {
@@ -66,13 +68,13 @@ div#main_container {
 
 .card_container {
   display: flex;
-  padding: 3rem;
   justify-content: center;
 }
 
 .card {
   width: 100%;
   padding: 10px;
+  text-align: center;
 }
 
 .card img {
@@ -80,8 +82,8 @@ div#main_container {
   max-height: 100%;
 }
 
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+a img:hover {
+  box-shadow: 0px 0px 29px 18px #DAA520;
 }
 
 .container {

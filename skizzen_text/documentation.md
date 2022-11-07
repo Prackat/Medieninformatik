@@ -26,7 +26,7 @@ Aufgabenstellung Checkliste:
 
 **erwartetes Ergebnis:**
 
-- [] ca. 3-5 Webseiten,
+- [x] ca. 3-5 Webseiten,
 - [] ein kurzer Text, der die Strukturierung der Information erläutert
 - [x] eine Skizze
 - [] abgeleitete Navigation und Gestaltung beschrieben und begründet

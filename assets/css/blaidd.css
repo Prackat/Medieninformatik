@@ -1,0 +1,63 @@
+.row{
+    width: 100%;
+    display: flex;
+}
+
+.container_blaidd_left{
+    width: 70%;
+}
+
+.container_blaidd_left ul {
+    min-height: 200px;
+}
+
+.container_blaidd_right{
+    width: 30%;
+    text-align: right;
+}
+
+.content_container h2, .content_container h4{
+    text-align: left;
+    padding-left: 50px;
+  }
+
+  .container_blaidd_headline{
+    width: 100%;
+  }
+
+  .container_blaidd_right img {
+    margin-top: 1em;
+}
+
+.infokasten{
+    width: 400px;
+    min-height: 150px;
+    background-color: #333;
+    float: right;
+}
+
+.infokasten table{
+    width: 100%;
+}
+
+.infokasten table  td, .infokasten table th {
+    border: 1px solid goldenrod;
+    text-align: left;
+    padding: 8px;
+  }
+
+.infokasten table a{
+    color: goldenrod;
+}
+.infokasten table a:hover{
+    color:white;
+    background-color: transparent;
+}
+
+.container_blaidd_left  ul  li  a{
+    color:goldenrod;
+}
+.container_blaidd_left ul li  a:hover{
+    color:white;
+    background-color: transparent;
+}
