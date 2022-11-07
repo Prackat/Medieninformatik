@@ -1,4 +1,4 @@
-Aufagebenstellung Checkliste:
+Aufgabenstellung Checkliste:
 
 # H1 **Documentation:**
 
@@ -16,29 +16,25 @@ Aufagebenstellung Checkliste:
   Navigationselemente (klassisch L-Navigation, Hamburger-Menu, Dropdown
   etc.)?
 
-• Achten Sie auf eine klare semantische Seitenaufteilung im Quellcode (Bsp.:
-Head/Navi/Content/Footer/evtl. Sidebar und eine Main) und statisches Layout
-(eine feste maximale Breite) und ein zentrierter Wrapper!!! mit maximaler
-Breite sind notwendig. Wenn Sie ein alternatives (responsives/reaktives) Layout
-bevorzugen, muß das mit dem Dozenten abgesprochen werden.
+- [x] Achten Sie auf eine klare semantische Seitenaufteilung im Quellcode (Bsp.:
+      Head/Navi/Content/Footer/evtl. Sidebar und eine Main) und
 
-• Ergebnis:
-– - ca. 3-5 Webseiten,
+- [x] statisches Layout
+      (eine feste maximale Breite) und ein zentrierter Wrapper!!! mit maximaler
+      Breite sind notwendig. Wenn Sie ein alternatives (responsives/reaktives) Layout
+      bevorzugen, muß das mit dem Dozenten abgesprochen werden.
 
-- ein kurzer Text, der die Strukturierung der Information erläutert
-  – - eine Skizze
-  – - abgeleitete Navigation und Gestaltung beschreibt und begründet
-  – - ihre Seite muss über den Aufruf der index.html startbar sein
-  – - Es ist eine geeignete Struktur (Ordner etc.) für z.B. Bilder, Texte, CSS-
-  Dateien, JS, etc. anzulegen (siehe Bild: Struktur).
-  5
-  • Mittel: korrektes HTML5 und CSS3 + eine JS-Integration (Slideshow,
-  Contentslider, Hamburger-Menü etc.). Tabellen bitte nur dort, wo sie auch
-  sinnvoll sind. Kommentieren Sie Ihren Quelltext. Achten Sie auf Einrückung
-  des Codes. Korrekter Einsatz der DTDs und weiterer Metatags sind wichtig.
-  Verwenden Sie Flexboxes oder in Absprache mit dem Dozenten alternative
-  Möglichkeiten für das Raster.
-  • Abgabeform: eine Datei in folgender Nomenklatur: m12345.zip bis zum
+**erwartetes Ergebnis:**
+
+- [] ca. 3-5 Webseiten,
+- [] ein kurzer Text, der die Strukturierung der Information erläutert
+- [x] eine Skizze
+- [] abgeleitete Navigation und Gestaltung beschrieben und begründet
+- [x] ihre Seite muss über den Aufruf der index.html startbar sein
+- [x] Es ist eine geeignete Struktur (Ordner etc.) für z.B. Bilder, Texte, CSS-
+      Dateien, JS, etc. anzulegen (siehe Bild: Struktur).
+- [x] eine JS-Integration (Slideshow,Contentslider, Hamburger-Menü etc.)
+- [x] Verwenden Sie Flexboxes oder in Absprache mit dem Dozenten alternative
 
 # H1 **Herangehensweise:**
 
