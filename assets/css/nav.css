@@ -1,7 +1,8 @@
 header {
   position: fixed;
   z-index: 1000;
-  width: 95%;
+  width: 100%;
+  display: contents;
 }
 
 header ul {
