@@ -1,6 +1,7 @@
 .row{
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .container_blaidd_left{
@@ -12,7 +13,7 @@
 }
 
 .container_blaidd_right{
-    width: 30%;
+    width: 30%; 
     text-align: right;
 }
 
@@ -30,12 +31,12 @@
 }
 
 .infokasten{
-    width: 400px;
+    width: 100%;
     min-height: 150px;
     background-color: #333;
     float: right;
+    
 }
-
 .infokasten table{
     width: 100%;
 }
@@ -45,7 +46,7 @@
     text-align: left;
     padding: 8px;
   }
-
+  
 .infokasten table a{
     color: goldenrod;
 }
@@ -61,3 +62,16 @@
     color:white;
     background-color: transparent;
 }
+
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 990px) {
+    .infokasten table  td, .infokasten table th{
+        font-size: 12pt;
+    }
+  }
+
+  @media only screen and (max-width: 810px) {
+    .container_blaidd_left, .container_blaidd_right{
+        width: 100%;
+    }
+  }
