@@ -1,77 +1,65 @@
-.row{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+.row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.container_blaidd_left{
-    width: 70%;
+.container_blaidd_left {
+  width: 70%;
 }
 
 .container_blaidd_left ul {
-    min-height: 200px;
+  min-height: 200px;
 }
 
-.container_blaidd_right{
-    width: 30%; 
-    text-align: right;
+.container_blaidd_right {
+  width: 30%;
+  text-align: right;
 }
 
-.content_container h2, .content_container h4{
-    text-align: left;
-    padding-left: 50px;
-  }
-
-  .container_blaidd_headline{
-    width: 100%;
-  }
-
-  .container_blaidd_right img {
-    margin-top: 1em;
+.content_container h2,
+.content_container h4 {
+  text-align: left;
+  padding-left: 50px;
 }
 
-.infokasten{
-    width: 100%;
-    min-height: 150px;
-    background-color: #333;
-    float: right;
-    
-}
-.infokasten table{
-    width: 100%;
+.container_blaidd_headline {
+  width: 100%;
 }
 
-.infokasten table  td, .infokasten table th {
-    border: 1px solid goldenrod;
-    text-align: left;
-    padding: 8px;
-  }
-  
-.infokasten table a{
-    color: goldenrod;
-}
-.infokasten table a:hover{
-    color:white;
-    background-color: transparent;
+.container_blaidd_right img {
+  margin-top: 1em;
 }
 
-.container_blaidd_left  ul  li  a{
-    color:goldenrod;
+.infokasten {
+  width: 100%;
+  min-height: 150px;
+  background-color: #333;
+  float: right;
 }
-.container_blaidd_left ul li  a:hover{
-    color:white;
-    background-color: transparent;
+.infokasten table {
+  width: 100%;
 }
 
-/*MEDIA QUERIES*/
-@media only screen and (max-width: 990px) {
-    .infokasten table  td, .infokasten table th{
-        font-size: 12pt;
-    }
-  }
+.infokasten table td,
+.infokasten table th {
+  border: 1px solid goldenrod;
+  text-align: left;
+  padding: 8px;
+}
 
-  @media only screen and (max-width: 810px) {
-    .container_blaidd_left, .container_blaidd_right{
-        width: 100%;
-    }
-  }
+.infokasten table a {
+  color: goldenrod;
+}
+.infokasten table a:hover {
+  color: white;
+  background-color: transparent;
+}
+
+.container_blaidd_left ul li a {
+  color: goldenrod;
+}
+.container_blaidd_left ul li a:hover {
+  color: white;
+  background-color: transparent;
+}

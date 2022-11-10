@@ -1,6 +1,6 @@
 Aufgabenstellung Checkliste:
 
-# H1 **Documentation:**
+# **Documentation:**
 
 - [] Formulieren sie einen Text (ca. eine viertel Seite) mit Ihrer Herangehensweise.
 
@@ -12,9 +12,9 @@ Aufgabenstellung Checkliste:
       Framework) realisiert wird (z.B.: Slideshow, Menü, Themenänderung), muß
       implementiert sein.
 
-- [] Welches Menü wollen Sie nutzen, wie ist die Anordnung der
-  Navigationselemente (klassisch L-Navigation, Hamburger-Menu, Dropdown
-  etc.)?
+- [x] Welches Menü wollen Sie nutzen, wie ist die Anordnung der
+      Navigationselemente (klassisch L-Navigation, Hamburger-Menu, Dropdown
+      etc.)? : klassisch
 
 - [x] Achten Sie auf eine klare semantische Seitenaufteilung im Quellcode (Bsp.:
       Head/Navi/Content/Footer/evtl. Sidebar und eine Main) und
@@ -35,8 +35,3 @@ Aufgabenstellung Checkliste:
       Dateien, JS, etc. anzulegen (siehe Bild: Struktur).
 - [x] eine JS-Integration (Slideshow,Contentslider, Hamburger-Menü etc.)
 - [x] Verwenden Sie Flexboxes oder in Absprache mit dem Dozenten alternative
-
-# H1 **Herangehensweise:**
-
-Body, Html bekommt das Hintergurndbild,
-reingeschachtelt: maincontainer
