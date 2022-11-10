@@ -1,11 +1,8 @@
 footer {
-    position: fixed;
-
-    bottom: 0;
-    width: 100%;
-    display: contents;
-    background-color: black;
-    opacity: 70%;
-    color: white;
-    text-align: center;
- }
+  bottom: 17px;
+  width: 1805px;
+  background-color: black;
+  opacity: 70%;
+  color: white;
+  text-align: center;
+}
