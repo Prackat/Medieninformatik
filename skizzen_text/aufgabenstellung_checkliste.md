@@ -2,7 +2,7 @@ Aufgabenstellung Checkliste:
 
 # **Documentation:**
 
-- [] Formulieren sie einen Text (ca. eine viertel Seite) mit Ihrer Herangehensweise.
+- [x] Formulieren sie einen Text (ca. eine viertel Seite) mit Ihrer Herangehensweise.
 
 - [x] Zeichnen sie einen Entwurf und legen sie diesen der Abgabe bei. Denken sie an
       die Farbgestaltung (https://kuler.adobe.com/), eine klare Seitenaufteilung und
@@ -17,7 +17,7 @@ Aufgabenstellung Checkliste:
       etc.)? : klassisch
 
 - [x] Achten Sie auf eine klare semantische Seitenaufteilung im Quellcode (Bsp.:
-      Head/Navi/Content/Footer/evtl. Sidebar und eine Main) und
+      Head/Navi/Content/Footer/evtl. Sidebar und eine Main)
 
 - [x] statisches Layout
       (eine feste maximale Breite) und ein zentrierter Wrapper!!! mit maximaler
@@ -27,9 +27,9 @@ Aufgabenstellung Checkliste:
 **erwartetes Ergebnis:**
 
 - [x] ca. 3-5 Webseiten,
-- [] ein kurzer Text, der die Strukturierung der Information erläutert
+- [x] ein kurzer Text, der die Strukturierung der Information erläutert
 - [x] eine Skizze
-- [] abgeleitete Navigation und Gestaltung beschrieben und begründet
+- [x] abgeleitete Navigation und Gestaltung beschrieben und begründet
 - [x] ihre Seite muss über den Aufruf der index.html startbar sein
 - [x] Es ist eine geeignete Struktur (Ordner etc.) für z.B. Bilder, Texte, CSS-
       Dateien, JS, etc. anzulegen (siehe Bild: Struktur).
